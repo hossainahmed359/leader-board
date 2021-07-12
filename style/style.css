@@ -18,7 +18,7 @@ body{
     background-color: #F3F1FF;
     font-family: 'Poppins', sans-serif;
 }
-/* Needs to be modified */
+
 main{
     display: flex;
     flex-direction: column;
@@ -224,4 +224,47 @@ hr{
     margin-top: 5px;
     margin-left: 9px;
 
+}
+
+/* Media Queries */
+@media only screen and (max-width:688px) {
+
+    .container{
+        width: 100%;
+    }
+    .first-sub-section{
+        margin-left: 0;
+    }
+    .player-item{
+        /* aleready flexed */
+        flex-direction: column;
+        align-items: center;
+    }
+    hr{
+        width: 100%;
+    }
+    .top-players{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .blogs{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .blog-items{
+            flex-direction: column;
+            align-items: center;
+    }
+    .blog-texts{
+        margin-right: auto;
+    }
+
+    .courses{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .course-item{
+        margin: auto;
+    }
 }
