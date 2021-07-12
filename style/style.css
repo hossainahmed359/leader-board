@@ -186,6 +186,7 @@ hr{
 .course-infos{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .fa-star{
     font-size: 11.81px;
@@ -203,7 +204,7 @@ hr{
     font-size: 14.6913px;
     color: #A2A2A2;
     margin-top: 18px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 .hours{
     height: 29px;
@@ -211,7 +212,7 @@ hr{
     border-radius: 14px;
     background-color:#FFE4E8;
     justify-content: center;
-    margin-left: 12px;
+    /* margin-left: 12px; */
 
 }
 .hours p{
