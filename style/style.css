@@ -1,7 +1,17 @@
+/* poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* open-sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
 
 /* utilities */
 /* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
 /* utilities */
 
 body{
@@ -19,6 +29,7 @@ main{
     background-color:#FFFFFF;
     width: 870px;
     border-radius: 5px;
+    margin-bottom: 21px;
 }
     /* first-sub-section */
 .first-sub-section{
@@ -89,7 +100,7 @@ hr{
 }
 .blog-items{
     display: flex;
-    justify-content: center;
+    align-items: center;
     margin-bottom: 26px;
     
 }
@@ -124,5 +135,92 @@ hr{
 .blog-texts a{
     text-decoration: none;
     color:#562EFF;
+
+}
+/* section-2 */
+/* third-sub-setion */
+.third-sub-section{
+    margin-left: 30px;
+}
+.latest-course-header h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #562EFF;
+    margin-top: 33px;
+    margin-bottom: 40px;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.course-banner img{
+    width: 224px;
+    height: 104px;
+}
+.course-item{
+    margin-top: 0;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+.course-detail h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.0336px;
+    line-height: 23px;
+
+}
+.course-author p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.6913px;
+    line-height: 17px;
+    color: #ED6B4F;
+}
+.course-infos{
+    display: flex;
+    align-items: center;
+}
+.fa-star{
+    font-size: 11.81px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.blank{
+    color: #AEAEAE;
+}
+.rating-number p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.6913px;
+    color: #A2A2A2;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+.hours{
+    height: 29px;
+    width: 94px;
+    border-radius: 14px;
+    background-color:#FFE4E8;
+    justify-content: center;
+    margin-left: 12px;
+
+}
+.hours p{
+    color: #FF4A60;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.6913px;
+    margin-top: 5px;
+    margin-left: 9px;
 
 }
